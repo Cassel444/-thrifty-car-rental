@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  padding: 24px 64px;
+  align-items: center;
+  width: 1440px;
+  gap: 450px;  
+  border-bottom: 1px solid var(--Badges, #F2F4F7);
+  background: var(--Inputs, #F7F7F7);
+}
+.mainLogo {
+  width: 136px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.link {
+  color: var(--Main, #101828);
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+}
+.isActive {
+  color: var(--Button-Hover, #D84343);
+}
+.box {
+    display: flex;
+
+    gap: 32px;
+}

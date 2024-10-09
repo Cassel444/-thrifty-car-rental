@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--Text, #475467);
+  background: var(--White, #FFF);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  --Text: #475467;
+  --Inputs: #F7F7F7;
+  --Button: #E44848;
+  --Button-Hover: #D84343;
+  --White: #FFF;
+  --Main: #101828;
+  --Badges: #F2F4F7;
+}
+.container {
+  max-width: 1312px;
+  margin: 0 auto;
+  padding-right: 64px;
+  padding-left: 64px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,ol {
+  list-style-type: none;
+  text-decoration: none;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+input {
+  font-family: inherit;
+}
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+button:hover {
+  background: var(--Button-Hover, #D84343);
+}
+
