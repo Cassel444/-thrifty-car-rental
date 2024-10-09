@@ -12,7 +12,7 @@ function Header() {
       <nav className={css.header}>
         <a href="./index.html">
             <svg className={css.mainLogo}>
-                <use href="/public/sprite.svg#icon-Logo-1"></use>
+                <use href="/sprite.svg#icon-Logo-1"></use>
             </svg>
         </a>  
         <div className={css.box}>
