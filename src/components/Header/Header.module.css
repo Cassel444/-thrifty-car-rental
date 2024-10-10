@@ -22,7 +22,6 @@
   color: var(--Button-Hover, #D84343);
 }
 .box {
-    display: flex;
-
-    gap: 32px;
+  display: flex;
+  gap: 32px;
 }

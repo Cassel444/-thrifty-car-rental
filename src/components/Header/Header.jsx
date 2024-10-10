@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import css from "./Header.module.css";
 import clsx from "clsx";
-
 const makeLinksClass = ({ isActive }) => {
     return clsx(css.link, isActive && css.isActive);
 };

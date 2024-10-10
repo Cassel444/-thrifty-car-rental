@@ -1,0 +1,23 @@
+.features {
+    display: flex;
+    padding: 12px 18px;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 100px;
+    background: var(--Badges, #F2F4F7);
+    mix-blend-mode: multiply;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.text {
+    color: var(--Main, #101828);
+    text-align: center;
+  
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+
