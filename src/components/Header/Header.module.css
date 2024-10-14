@@ -1,8 +1,11 @@
 .header {
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   padding: 24px 64px;
   align-items: center;
-  width: 1440px;
+  width: 100%;
   gap: 450px;  
   border-bottom: 1px solid var(--Badges, #F2F4F7);
   background: var(--Inputs, #F7F7F7);

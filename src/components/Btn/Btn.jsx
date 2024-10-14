@@ -1,11 +1,11 @@
-import css from "./Button.module.css";
+import css from "./Btn.module.css";
 
 
-function Button ({ text, onClick }) {
+function Btn ({ text, onClick }) {
     return (
         <button className={css.btn} onClick={onClick}>
             {text}
         </button>
       );
 }
-export default Button;
+export default Btn;

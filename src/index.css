@@ -4,12 +4,12 @@
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-
+  width: 1440px;
   overflow: hidden;
   text-overflow: ellipsis;
   color: var(--Text, #475467);
   background: var(--White, #FFF);
-
+  margin: 0;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,6 +24,8 @@
   --Main: #101828;
   --Badges: #F2F4F7;
   --Gray-light: #DADDE1;
+  --Gray: #6C717B;
+
 }
 .container {
   max-width: 1312px;
@@ -42,6 +44,8 @@ p {
   margin: 0;
 }
 ul,ol {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   text-decoration: none;
 }
@@ -50,6 +54,7 @@ p:last-child {
 }
 img {
   display: block;
+  margin: 0 auto;
   max-width: 100%;
   height: auto;
 }
@@ -58,10 +63,7 @@ input {
 }
 button {
   font-family: inherit;
-  color: currentColor;
+  /* color: currentColor; */
   cursor: pointer;
-}
-button:hover {
-  background: var(--Button-Hover, #D84343);
 }
 

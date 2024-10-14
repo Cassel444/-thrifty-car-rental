@@ -7,8 +7,7 @@ const makeLinksClass = ({ isActive }) => {
 
 function Header() {
   return (
-    <div className={css.container}>
-      <nav className={css.header}>
+    <div className={`${css.container} ${css.header}`}>
         <a href="./index.html">
             <svg className={css.mainLogo}>
                 <use href="/sprite.svg#icon-Logo-1"></use>
@@ -22,7 +21,6 @@ function Header() {
           Catalog
         </NavLink>
         </div>
-      </nav>
     </div>
   );
 }

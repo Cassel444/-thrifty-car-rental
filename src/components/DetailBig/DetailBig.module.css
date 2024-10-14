@@ -1,8 +1,9 @@
 .features {
     display: flex;
+    gap: 8px;
+    align-items: center; 
     padding: 12px 18px;
     align-items: center;
-    gap: 8px;
 
     border-radius: 100px;
     background: var(--Badges, #F2F4F7);

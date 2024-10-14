@@ -1,7 +1,7 @@
-import css from "./Features.module.css";
+import css from "./DetailBig.module.css";
 
 
-function Features({ iconId, text }) {
+function DetailBig({ iconId, text }) {
     return (
         <div className={css.features}>
           <svg className={css.icon}>
@@ -11,4 +11,4 @@ function Features({ iconId, text }) {
         </div>
       );
 }
-export default Features;
+export default DetailBig;

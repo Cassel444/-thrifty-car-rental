@@ -4,8 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function HomePage() {
     return (
-      <section className={css.poster}>
-        <div className={css.container}>
+        <div className={`${css.container} ${css.poster}`}>
           <h1 className={css.posterTitle}>
             Campers of your dreams
           </h1>
@@ -16,7 +15,6 @@ function HomePage() {
           View Now 
           </NavLink>
         </div>
-      </section>
     );
   }
 export default HomePage;

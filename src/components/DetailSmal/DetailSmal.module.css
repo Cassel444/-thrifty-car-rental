@@ -1,0 +1,22 @@
+.features {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.icon {
+    width: 16px;
+    height: 16px;
+}
+.text {
+    color: var(--Main, #101828);
+    text-align: center;
+  
+    font-weight: 400;
+    line-height: 24px; 
+}
+.line {
+    text-decoration-line: underline;
+}
+.yellowIcon {
+    fill: #FFC531;
+}

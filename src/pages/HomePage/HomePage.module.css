@@ -1,6 +1,7 @@
 .poster {
     display: flex;
-    place-items: center;
+    flex-direction: column;
+    justify-content: center;
     width: 1440px;
     height: 696px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),
